@@ -1,11 +1,297 @@
 /*!*****************************************************************************************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[3]!./src/app/globals.css ***!
   \*****************************************************************************************************************************************************************************************************************************************************************/
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+/* Paleta Coastal Blue y Estilos Generales */
+:root {
+  --merino: #F5EEDD;
+  --veniceBlue: #16587B;
+  --rockBlue: #84B3CE;
+}
 
 body {
-  background-color: #F5EEDD;
-  color: #16587B;
+  background-color: var(--merino);
+  color: var(--veniceBlue);
+  font-family: system-ui, -apple-system, sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.5;
+}
+
+/* Navegación */
+.navbar {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 50;
+  background-color: rgba(245, 238, 221, 0.95);
+  border-bottom: 1px solid rgba(132, 179, 206, 0.4);
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-links a {
+  margin-left: 1.5rem;
+  color: var(--veniceBlue);
+  text-decoration: none;
+  font-size: 0.85rem;
+  font-weight: 600;
+}
+
+.nav-links a:hover {
+  opacity: 0.7;
+}
+
+/* Contenedor principal */
+.main-container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 2rem 1.5rem;
+}
+
+/* Sección Hero */
+.hero-section {
+  text-align: center;
+  padding: 3rem 0;
+  border-bottom: 1px solid rgba(132, 179, 206, 0.4);
+}
+
+.badge {
+  display: inline-block;
+  background-color: rgba(132, 179, 206, 0.3);
+  padding: 0.3rem 1rem;
+  border-radius: 50px;
+  font-size: 0.75rem;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+/* Tarjetas y Secciones */
+.section-title {
+  font-size: 1.8rem;
+  font-weight: bold;
+  margin-bottom: 1.5rem;
+  border-bottom: 2px solid rgba(132, 179, 206, 0.4);
+  padding-bottom: 0.5rem;
+}
+
+.card {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid var(--rockBlue);
+  border-radius: 12px;
+  padding: 1.5rem;
+  margin-bottom: 1.5rem;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+
+.grid-2 {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  grid-gap: 1.5rem;
+  gap: 1.5rem;
+}
+
+/* Botones */
+.btn-primary {
+  background-color: var(--veniceBlue);
+  color: var(--merino);
+  padding: 0.75rem 1.5rem;
+  border-radius: 8px;
+  font-weight: bold;
+  font-size: 0.8rem;
+  text-decoration: none;
+  display: inline-block;
+  border: none;
+  cursor: pointer;
+}
+
+.btn-outline {
+  border: 2px solid var(--veniceBlue);
+  color: var(--veniceBlue);
+  padding: 0.75rem 1.5rem;
+  border-radius: 8px;
+  font-weight: bold;
+  font-size: 0.8rem;
+  text-decoration: none;
+  display: inline-block;
+}
+
+/* Formularios */
+.form-group {
+  margin-bottom: 1rem;
+}
+
+.form-group label {
+  display: block;
+  font-size: 0.8rem;
+  font-weight: bold;
+  margin-bottom: 0.3rem;
+}
+
+.form-group input, .form-group textarea {
+  width: 100%;
+  padding: 0.7rem;
+  border-radius: 8px;
+  border: 1px solid var(--rockBlue);
+  background-color: white;
+  font-size: 0.85rem;
+  box-sizing: border-box;
+}/* Paleta Coastal Blue y Estilos Generales */
+:root {
+  --merino: #F5EEDD;
+  --veniceBlue: #16587B;
+  --rockBlue: #84B3CE;
+}
+
+body {
+  background-color: var(--merino);
+  color: var(--veniceBlue);
+  font-family: system-ui, -apple-system, sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.5;
+}
+
+/* Navegación */
+.navbar {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 50;
+  background-color: rgba(245, 238, 221, 0.95);
+  border-bottom: 1px solid rgba(132, 179, 206, 0.4);
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-links a {
+  margin-left: 1.5rem;
+  color: var(--veniceBlue);
+  text-decoration: none;
+  font-size: 0.85rem;
+  font-weight: 600;
+}
+
+.nav-links a:hover {
+  opacity: 0.7;
+}
+
+/* Contenedor principal */
+.main-container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 2rem 1.5rem;
+}
+
+/* Sección Hero */
+.hero-section {
+  text-align: center;
+  padding: 3rem 0;
+  border-bottom: 1px solid rgba(132, 179, 206, 0.4);
+}
+
+.badge {
+  display: inline-block;
+  background-color: rgba(132, 179, 206, 0.3);
+  padding: 0.3rem 1rem;
+  border-radius: 50px;
+  font-size: 0.75rem;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+/* Tarjetas y Secciones */
+.section-title {
+  font-size: 1.8rem;
+  font-weight: bold;
+  margin-bottom: 1.5rem;
+  border-bottom: 2px solid rgba(132, 179, 206, 0.4);
+  padding-bottom: 0.5rem;
+}
+
+.card {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid var(--rockBlue);
+  border-radius: 12px;
+  padding: 1.5rem;
+  margin-bottom: 1.5rem;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+
+.grid-2 {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  grid-gap: 1.5rem;
+  gap: 1.5rem;
+}
+
+/* Botones */
+.btn-primary {
+  background-color: var(--veniceBlue);
+  color: var(--merino);
+  padding: 0.75rem 1.5rem;
+  border-radius: 8px;
+  font-weight: bold;
+  font-size: 0.8rem;
+  text-decoration: none;
+  display: inline-block;
+  border: none;
+  cursor: pointer;
+}
+
+.btn-outline {
+  border: 2px solid var(--veniceBlue);
+  color: var(--veniceBlue);
+  padding: 0.75rem 1.5rem;
+  border-radius: 8px;
+  font-weight: bold;
+  font-size: 0.8rem;
+  text-decoration: none;
+  display: inline-block;
+}
+
+/* Formularios */
+.form-group {
+  margin-bottom: 1rem;
+}
+
+.form-group label {
+  display: block;
+  font-size: 0.8rem;
+  font-weight: bold;
+  margin-bottom: 0.3rem;
+}
+
+.form-group input, .form-group textarea {
+  width: 100%;
+  padding: 0.7rem;
+  border-radius: 8px;
+  border: 1px solid var(--rockBlue);
+  background-color: white;
+  font-size: 0.85rem;
+  box-sizing: border-box;
+}
+
+/* Estilo de Pines / Stickers de Viaje */
+.travel-sticker {
+  display: inline-block;
+  background-color: #fff;
+  border: 2px dashed var(--rockBlue);
+  padding: 0.4rem 0.8rem;
+  border-radius: 20px;
+  font-size: 0.85rem;
+  box-shadow: 0 4px 6px rgba(22, 88, 123, 0.08);
+  margin: 0.3rem 0;
+}
+
+/* Decoración superior con estilo de vuelo */
+.hero-section::before {
+  content: "✈️ 🧳 🌍 🎫";
+  display: block;
+  font-size: 1.5rem;
+  letter-spacing: 0.8rem;
+  margin-bottom: 0.8rem;
 }
