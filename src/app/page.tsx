@@ -19,12 +19,12 @@ export default function Home() {
         
         {/* HERO */}
         <section className="hero-section">
-          <span className="badge">Portafolio Académico e Integrador</span>
+          <span className="badge">Portafolio Académico </span>
           <h1 style={{ fontSize: "2.5rem", margin: "1rem 0 0.5rem" }}>
             Adriana Raquel Mejía González
           </h1>
           <p style={{ fontSize: "1.1rem", fontWeight: 600, opacity: 0.9 }}>
-            Futura Tripulante de Cabina (TCP) & Desarrolladora
+            Futura Tripulante de Cabina (TCP) 
           </p>
           <p style={{ maxWidth: "500px", margin: "1rem auto", fontSize: "0.9rem", fontStyle: "italic", opacity: 0.85 }}>
             &quot;Conectando la seguridad y la excelencia en el servicio a bordo con soluciones tecnológicas.&quot;
@@ -46,12 +46,12 @@ export default function Home() {
             </div>
             <div>
               <p style={{ fontSize: "0.9rem", lineHeight: "1.6" }}>
-                ¡Hola! Soy estudiante del programa ¡Supérate! Fundación Frech y apasionada por la aviación comercial. Mi meta es combinar mis habilidades tecnológicas con una vocación de servicio impecable para garantizar la seguridad y el confort de los pasajeros.
+                ¡Hola! Soy estudiante del programa ¡Supérate! Fundación Frech y apasionada por la aviación comercial. Mi meta es combinar mi vocación de servicio hacia los demás para garantizar la seguridad y el confort de los pasajeros.
               </p>
               <ul style={{ textAlign: "left", fontSize: "0.85rem", marginTop: "1rem", paddingLeft: "1rem" }}>
-                <li>✨ <strong>Intereses:</strong> Aviación, lectura y viajes.</li>
-                <li>🎯 <strong>Objetivos:</strong> Graduarme como TCP y conectar culturas.</li>
-                <li>💪 <strong>Fortalezas:</strong> Empatía, liderazgo y trabajo en equipo.</li>
+                <li>✨ <strong>Intereses:</strong> Aviación, lectura y visitar nuevos lugares.</li>
+                <li>🎯 <strong>Objetivos:</strong> Graduarme como TCP y conocer nuevos lugares y personas.</li>
+                <li>💪 <strong>Fortalezas:</strong> Empatía, trabajo en equipo y escucha activa.</li>
               </ul>
             </div>
           </div>
@@ -62,11 +62,11 @@ export default function Home() {
           <h2 className="section-title">Experiencia y Trayectoria</h2>
           <div className="grid-2">
             <div className="card">
-              <h3 style={{ fontSize: "1rem", fontWeight: "bold" }}>Experiencia Comercial</h3>
-              <p style={{ fontSize: "0.85rem", marginTop: "0.5rem" }}>Atención directa al cliente y gestión operativa en ferias y entornos de alta afluencia.</p>
+              <h3 style={{ fontSize: "1rem", fontWeight: "bold" }}>Experiencia Laboral</h3>
+              <p style={{ fontSize: "0.85rem", marginTop: "0.5rem" }}>Atención directa al cliente en ferias y en atención diaria.</p>
             </div>
             <div className="card">
-              <h3 style={{ fontSize: "1rem", fontWeight: "bold" }}>Proyectos Web Destacados</h3>
+              <h3 style={{ fontSize: "1rem", fontWeight: "bold" }}>Proyectos Web en los que participe.</h3>
               <p style={{ fontSize: "0.85rem", marginTop: "0.5rem" }}>Colaboración en iniciativas web institucionales como Golden Seeds, Timely Meds y Kiroo.</p>
             </div>
           </div>
