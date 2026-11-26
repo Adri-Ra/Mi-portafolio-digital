@@ -87,13 +87,13 @@ export default function Home() {
               <div style={{ marginTop: "1rem" }}>
                 <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: "0.5rem", marginBottom: "1rem" }}>
                   <div style={{ position: "relative", height: "110px", borderRadius: "6px", overflow: "hidden", border: "1px solid #84B3CE", backgroundColor: "#fff" }}>
-                    <Image src="/mi-foto.jpg" alt="Evidencia Regresión 1" fill style={{ objectFit: "cover" }} />
+                    <Image src="/codigoregresion2.jpg" alt="Evidencia Regresión 1" fill style={{ objectFit: "cover" }} />
                   </div>
                   <div style={{ position: "relative", height: "110px", borderRadius: "6px", overflow: "hidden", border: "1px solid #84B3CE", backgroundColor: "#fff" }}>
-                    <Image src="/mi-foto.jpg" alt="Evidencia Regresión 2" fill style={{ objectFit: "cover" }} />
+                    <Image src="/funcionregresion2.jpg" alt="Evidencia Regresión 2" fill style={{ objectFit: "cover" }} />
                   </div>
                 </div>
-                <a href="https://github.com/Adri-Ra" target="_blank" rel="noopener noreferrer" className="btn-primary" style={{ width: "100%", textAlign: "center", boxSizing: "border-box" }}>
+                <a href="https://github.com/Adri-Ra/Regresi-n-lineal/blob/main/Regresi%C3%B3n%20lineal" target="_blank" rel="noopener noreferrer" className="btn-primary" style={{ width: "100%", textAlign: "center", boxSizing: "border-box" }}>
                   Ver Repositorio ↗
                 </a>
               </div>
@@ -109,13 +109,13 @@ export default function Home() {
               <div style={{ marginTop: "1rem" }}>
                 <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: "0.5rem", marginBottom: "1rem" }}>
                   <div style={{ position: "relative", height: "110px", borderRadius: "6px", overflow: "hidden", border: "1px solid #84B3CE", backgroundColor: "#fff" }}>
-                    <Image src="/mi-foto.jpg" alt="Evidencia Laberinto 1" fill style={{ objectFit: "cover" }} />
+                    <Image src="/codigolaberinto.jpg" alt="Evidencia Laberinto 1" fill style={{ objectFit: "cover" }} />
                   </div>
                   <div style={{ position: "relative", height: "110px", borderRadius: "6px", overflow: "hidden", border: "1px solid #84B3CE", backgroundColor: "#fff" }}>
-                    <Image src="/mi-foto.jpg" alt="Evidencia Laberinto 2" fill style={{ objectFit: "cover" }} />
+                    <Image src="/laberinto2.jpg" alt="Evidencia Laberinto 2" fill style={{ objectFit: "cover" }} />
                   </div>
                 </div>
-                <a href="https://github.com/Adri-Ra" target="_blank" rel="noopener noreferrer" className="btn-primary" style={{ width: "100%", textAlign: "center", boxSizing: "border-box" }}>
+                <a href="https://github.com/Adri-Ra/Laberinto/blob/main/laberinto" target="_blank" rel="noopener noreferrer" className="btn-primary" style={{ width: "100%", textAlign: "center", boxSizing: "border-box" }}>
                   Ver Repositorio ↗
                 </a>
               </div>
@@ -131,13 +131,13 @@ export default function Home() {
               <div style={{ marginTop: "1rem" }}>
                 <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: "0.5rem", marginBottom: "1rem" }}>
                   <div style={{ position: "relative", height: "110px", borderRadius: "6px", overflow: "hidden", border: "1px solid #84B3CE", backgroundColor: "#fff" }}>
-                    <Image src="/mi-foto.jpg" alt="Evidencia AI 1" fill style={{ objectFit: "cover" }} />
+                    <Image src="/codigok-mean.jpg" alt="Evidencia AI 1" fill style={{ objectFit: "cover" }} />
                   </div>
                   <div style={{ position: "relative", height: "110px", borderRadius: "6px", overflow: "hidden", border: "1px solid #84B3CE", backgroundColor: "#fff" }}>
-                    <Image src="/mi-foto.jpg" alt="Evidencia AI 2" fill style={{ objectFit: "cover" }} />
+                    <Image src="/funcion-knea.jpg" alt="Evidencia AI 2" fill style={{ objectFit: "cover" }} />
                   </div>
                 </div>
-                <a href="https://github.com/Adri-Ra" target="_blank" rel="noopener noreferrer" className="btn-primary" style={{ width: "100%", textAlign: "center", boxSizing: "border-box" }}>
+                <a href="https://github.com/Adri-Ra/K-Means-y-KNN/blob/main/Actividad_KNN_y_KM.ipynb" target="_blank" rel="noopener noreferrer" className="btn-primary" style={{ width: "100%", textAlign: "center", boxSizing: "border-box" }}>
                   Ver Repositorio ↗
                 </a>
               </div>
@@ -153,13 +153,13 @@ export default function Home() {
               <div style={{ marginTop: "1rem" }}>
                 <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: "0.5rem", marginBottom: "1rem" }}>
                   <div style={{ position: "relative", height: "110px", borderRadius: "6px", overflow: "hidden", border: "1px solid #84B3CE", backgroundColor: "#fff" }}>
-                    <Image src="/mi-foto.jpg" alt="Evidencia Hotspots 1" fill style={{ objectFit: "cover" }} />
+                    <Image src="/codigohotpost.jpg" alt="Evidencia Hotspots 1" fill style={{ objectFit: "cover" }} />
                   </div>
                   <div style={{ position: "relative", height: "110px", borderRadius: "6px", overflow: "hidden", border: "1px solid #84B3CE", backgroundColor: "#fff" }}>
-                    <Image src="/mi-foto.jpg" alt="Evidencia Hotspots 2" fill style={{ objectFit: "cover" }} />
+                    <Image src="/imagenmapa.jpg" alt="Evidencia Hotspots 2" fill style={{ objectFit: "cover" }} />
                   </div>
                 </div>
-                <a href="https://github.com/Adri-Ra" target="_blank" rel="noopener noreferrer" className="btn-primary" style={{ width: "100%", textAlign: "center", boxSizing: "border-box" }}>
+                <a href="https://github.com/Adri-Ra/Hotspots-Comerciales/blob/main/hotspots" target="_blank" rel="noopener noreferrer" className="btn-primary" style={{ width: "100%", textAlign: "center", boxSizing: "border-box" }}>
                   Ver Repositorio ↗
                 </a>
               </div>
